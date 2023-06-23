@@ -59,21 +59,21 @@ Machine learning can predict diabetes, and AI is set to disrupt the healthcare f
 
 Principal's model feactures:
 
-* Model with ~80% accuracy
-* 2 hidden layers
-* 32 nodes
-* Model implementent witSh Keras usign the sequential model
-* Adam optimizer algorithm 
-* 300 iterations
+- Model with ~80% accuracy
+- 2 hidden layers
+- 32 nodes
+- Model implementent witSh Keras usign the sequential model
+- Adam optimizer algorithm 
+- 300 iterations
 
 <p align="center">
-  <img src = "https://i.imgur.com/RNVkrHo.png" width=700>
+  <img src = "https://i.imgur.com/RNVkrHo.png" width=400>
 </p>
 
 > Confussion Matrix Results
 
 <p align="center">
-  <img src = "https://i.imgur.com/eOtvLo8.png" width=700>
+  <img src = "https://i.imgur.com/eOtvLo8.png" width=400>
 </p>
 
 > ROC Curve
