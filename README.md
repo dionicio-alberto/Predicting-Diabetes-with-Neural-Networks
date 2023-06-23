@@ -31,98 +31,103 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Feedback](#feedback)
-- [Contributors](#contributors)
 - [Build Process](#build-process)
 - [Backers](#backers-)
 - [Sponsors](#sponsors-)
 - [Acknowledgments](#acknowledgments)
 
+<!-- [Contributors](#contributors) -->
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 -----
 
 ## Introduction
 
-View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
+View repository about project to Predicting Diabetes using Nerual Networks and Pima Indians Poblation Dataset. 
+
+Diabetes is a persistent health condition linked to increased glucose levels in the body. It frequently results in heart disease, stroke, impaired kidney function, and lasting harm to the limbs.
+
+Machine learning can predict diabetes, and AI is set to disrupt the healthcare field. Accenture predicts a 40% compound annual growth rate in the AI healthcare market by 2021, driven by the proliferation of AI and tech companies in the industry.
 
 <p align="center">
-  <img src = "http://i.imgur.com/HowF6aM.png" width=350>
+  <img src = "https://live.staticflickr.com/65535/49775715367_b0c9d4ec20_c.jpg" width=350>
 </p>
 
 -----
 
 ## Features
 
-A few of the things you can do with GitPoint:
+Principal's model feactures:
 
-* View user activity feed
-* Communicate on your issue and pull request conversations
-* Close or lock issues
-* Apply labels and assignees
-* Review and merge pull requests
-* Create new issues
-* Star, watch and fork repositories
-* Control your unread and participating notifications
-* Easily search for any user or repository
+* Model with ~80% accuracy
+* 2 hidden layers
+* 32 nodes
+* Model implementent witSh Keras usign the sequential model
+* Adam optimizer algorithm 
+* 300 iterations
 
 <p align="center">
-  <img src = "http://i.imgur.com/IkSnFRL.png" width=700>
+  <img src = "https://i.imgur.com/RNVkrHo.png" width=700>
 </p>
+
+> Confussion Matrix Results
 
 <p align="center">
-  <img src = "http://i.imgur.com/0iorG20.png" width=700>
+  <img src = "https://i.imgur.com/eOtvLo8.png" width=700>
 </p>
 
+> ROC Curve
 -----
 
 ## Feedback
 
-Feel free to send us feedback on [Twitter](https://twitter.com/gitpointapp) or [file an issue](https://github.com/gitpoint/git-point/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
+Feel free to send us feedback on [Twitter](https://twitter.com/dionicio_98) or [file an issue](https://github.com/dionicio-alberto/Predicting-Diabetes-with-Neural-Networks/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
 
-If there's anything you'd like to chat about, please feel free to join our [Gitter chat](https://gitter.im/git-point)!
+<!-- If there's anything you'd like to chat about, please feel free to join our [Gitter chat](https://gitter.im/git-point)! -->
 
 -----
 
-## Contributors
+<!-- ## Contributors
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification and is brought to you by these [awesome contributors](./CONTRIBUTORS.md).
 
------
+----- -->
+
 
 ## Build Process
 
-- Follow the [React Native Guide](https://facebook.github.io/react-native/docs/getting-started.html) for getting started building a project with native code. **A Mac is required if you wish to develop for iOS.**
-- Clone or download the repo
-- `yarn` to install dependencies
-- `yarn run link` to link react-native dependencies
-- `yarn start:ios` to start the packager and run the app in the iOS simulator (`yarn start:ios:logger` will boot the application with [redux-logger](<https://github.com/evgenyrodionov/redux-logger>))
-- `yarn start:android` to start the packager and run the app in the the Android device/emulator (`yarn start:android:logger` will boot the application with [redux-logger](https://github.com/evgenyrodionov/redux-logger))
+- Follow the guide in the book [Nerual Network Projects with Python](https://www.amazon.com/Neural-Network-Projects-Python-ultimate/dp/1789138906) for getting started building a project with native code.
+- Use the follows libreries:
+  - Numpy
+  - Pandas
+  - Matplotlib
+  - Seaborn
+  - Keras
+  - Scikit-learn
+- Data Analysis and Exploration
+- Data Preprocessing
+- Modeling Neural Network
+- Training Neural Network
+- Evaluating Neural
 
-Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how to build your application as well as troubleshooting information.
+Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed about the results
 
-**Development Keys**: The `CLIENT_ID` and `CLIENT_SECRET` in `api/index.js` are for development purposes and do not represent the actual application keys. Feel free to use them or use a new set of keys by creating an [OAuth application](https://github.com/settings/applications/new) of your own. Set the "Authorization callback URL" to `gitpoint://welcome`.
+-----
 
-## Backers [![Backers on Open Collective](https://opencollective.com/git-point/backers/badge.svg)](#backers)
+<!--  ## Backers [![Backers on Open Collective](https://opencollective.com/git-point/backers/badge.svg)](#backers)
 
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/git-point#backer)]
 
-<a href="https://opencollective.com/git-point#backers" target="_blank"><img src="https://opencollective.com/git-point/backers.svg?width=890"></a>
+<a href="https://opencollective.com/git-point#backers" target="_blank"><img src="https://opencollective.com/git-point/backers.svg?width=890"></a> -->
 
-## Sponsors [![Sponsors on Open Collective](https://opencollective.com/git-point/sponsors/badge.svg)](#sponsors)
+
+## Sponsors <!-- [![Sponsors on Open Collective](https://opencollective.com/git-point/sponsors/badge.svg)](#sponsors) -->
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/git-point#sponsor)]
 
-<a href="https://opencollective.com/git-point/sponsor/0/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/1/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/2/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/3/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/4/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/5/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/6/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/7/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/8/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/9/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/9/avatar.svg"></a>
+<a href="https://www.linkedin.com/in/dionicio-perez-landero-446605170/" target="_blank"><img src="https://opencollective.com/git-point/sponsor/0/avatar.svg"></a>
+<a href="https://www.linkedin.com/in/dionicio-perez-landero-446605170/" target="_blank"><img src="https://opencollective.com/git-point/sponsor/1/avatar.svg"></a>
 
 ## Acknowledgments
 
-Thanks to [JetBrains](https://www.jetbrains.com) for supporting us with a [free Open Source License](https://www.jetbrains.com/buy/opensource).
+Thanks to my parents for all them love.
