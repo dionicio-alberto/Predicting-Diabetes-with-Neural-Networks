@@ -49,6 +49,8 @@ Diabetes is a persistent health condition linked to increased glucose levels in 
 
 Machine learning can predict diabetes, and AI is set to disrupt the healthcare field. Accenture predicts a 40% compound annual growth rate in the AI healthcare market by 2021, driven by the proliferation of AI and tech companies in the industry.
 
+**All project is in the folder *Notebook*.**
+
 <p align="center">
   <img src = "https://live.staticflickr.com/65535/49775715367_b0c9d4ec20_c.jpg" width=350>
 </p>
